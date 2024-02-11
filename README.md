@@ -24,13 +24,13 @@ DROP COLUMN status
 INSERT INTO users(
 	name, email, password
 ) VALUES (
-	"João", "joao@gmail.com", "1234"
+	"João", "joao@gmail.com", "xxxx"
 );
 
 SELECT * FROM users; 
 
 UPDATE users 
-SET avatar = 'justino.png' 
+SET avatar = 'image.png' 
 WHERE id = 1;
 
 DELETE FROM users WHERE id = 2;
